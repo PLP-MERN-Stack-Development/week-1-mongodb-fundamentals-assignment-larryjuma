@@ -45,3 +45,31 @@ Your work will be automatically submitted when you push to your GitHub Classroom
 - [MongoDB Documentation](https://docs.mongodb.com/)
 - [MongoDB University](https://university.mongodb.com/)
 - [MongoDB Node.js Driver](https://mongodb.github.io/node-mongodb-native/) 
+
+# 📚 PLP Bookstore - MongoDB Fundamentals Assignment
+
+This repository contains the MongoDB scripts and resources for the Week 1 MongoDB Fundamentals Assignment.
+
+## 📂 Files Included
+
+- `insert_books.js` – Script to insert 10 book documents into the `books` collection.
+- `queries.js` – All MongoDB queries for CRUD operations, advanced queries, and aggregation.
+- `screenshot.png` – A screenshot from MongoDB Compass or Atlas showing the collection and sample documents.
+- `README.md` – Instructions on how to run the scripts and use the files.
+
+---
+
+## How to Run
+
+### Step 1: Open MongoDB Shell or Compass
+
+Ensure MongoDB is running locally or you're connected to your MongoDB Atlas cluster.
+
+### Step 2: Create the `plp_bookstore` Database and Insert Data
+
+1. Open the **Mongo Shell** or use the **"Playground"** in MongoDB Compass.
+2. Switch to the new database and load the script:
+
+```js
+use plp_bookstore
+load("insert_books.js")
